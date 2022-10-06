@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ESTILOS GENERALES */
+/* NAV TODOS HTML---------------------------------------------- */
+body{
+    background-image:url("./img/backgroung.jpeg");
+}
+.indexNav nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: 'Arima Madurai';
+    background-color: rgb(16, 15, 15);
+    list-style-type:none;
+}
+.indexNav nav ul li{
+    padding: 1rem;
+}
+.indexNav nav ul li .imgNav1{
+    height: 90px;
+}
+.indexNav nav ul li .imgNav2{
+    width:250px;
+}
+nav ul li form input{
+    margin: 0.2rem 3rem 0.2rem 0rem;
+    font-family: 'Arima Madurai';
+    padding: 0.5rem 3rem;
+    border-radius: 1.25rem;
+    border: none;
+}
+
+nav ul li form input:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    box-shadow: 0.0625em 0.0625em 0.625em white;
+}
+/* FOOTER TODOS LOS HTML */
+/* FOOTER ------------------------------------------------------*/
+footer{
+    background-color: rgb(24, 23, 23);
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Arima Madurai';
+    color: whitesmoke;
+}
+footer ul li{
+    margin: 1rem 5rem;
+    font-size: 1.2rem;
+}
+.imgFooterLogo{
+    height:50px;
+}
+.imgFooterRedes{
+    height: 30px;
+    margin: 0.5rem 1.5rem 0rem 1.5rem;
+    justify-content: center;
+}
+footer ul li form input{
+    margin: 0.2rem 3rem 0.2rem 0rem;
+    font-family: 'Arima Madurai';
+    padding: 0.5rem 3rem;
+    border-radius: 1.25rem;
+    border: none;
+}
+
+footer ul li form input:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    box-shadow: 0.0625em 0.0625em 0.625em white;
+}
+
+/* MAIN INDEX--------------------------------------------------------- */
+.indexMain{
+text-align: center;
+}
+.indexMain h1{
+    color: whitesmoke;
+    font-size: 4rem;
+    margin: 2rem;
+    font-family: 'Fredericka the Great';
+    font-weight: 100;
+}
+.indexMain p{
+    color: black;
+    border-radius: 1.25rem;
+    font-size: 1.8rem;
+    padding: 2rem;
+    margin: 2rem 15rem;
+    background-color: #f7f7f1;
+    font-family: 'Arima Madurai'
+}
+.secciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.secciones li{
+    width: 22rem;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 1.25rem;
+    background-color:#f7f7f1;
+
+}
+.secciones li:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    box-shadow: 0.0625em 0.0625em 0.625em white;
+}
+.secciones li a{
+    color: black;
+    font-size: 1.8rem;
+    font-family: 'Fredericka the Great';
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secciones .imgSecciones{
+    height: 200px;
+    border-radius: 1.25rem;
+}
+
+/* MAIN EXPLORA -----------------------------------------------------*/
+.indexExplora{
+    text-align: center;
+    height: auto;
+    }
+    
+.indexExplora h1{
+    color: whitesmoke;
+    font-size: 4rem;
+    margin: 2rem;
+    font-family: 'Fredericka the Great';
+    font-weight: 100;
+}
+.blogExplora{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0rem 3rem;
+    font-family: 'Arima Madurai';
+    list-style-type: none;
+}
+.blogExplora li{
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 1.25rem;
+}
+.noticiasExplora{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f7f7f1;
+}
+.blogExplora li h2{
+    font-size: 1.8rem;
+    font-family: 'Fredericka the Great';
+    margin: 1rem;
+}
+.blogExplora li p{
+    font-size: 1.2rem;
+}
+.imgBlogExplora{
+    height: 200px;
+    border-radius: 1.25rem;
+    margin: 1rem;
+}
+.formExplora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+    color: #f7f7f1;
+}
+.formExplora input{
+    margin: 0.3rem;
+    padding: 1.3rem;
+    border: none;
+    border-radius: 1.25rem;
+    font-size: 1.25rem;
+    font-family: 'Arima Madurai';
+    width: 60%;
+}
+.formExplora input:hover{
+    transform: scale(1);
+    transition: 0.4s;
+    box-shadow: 0.0625em 0.0625em 0.625em white;
+}
+.ingresar{
+    background-color: rgb(31, 29, 29);
+    font-weight: bold;
+    color: whitesmoke;
+}
+/* MAIN COMUNIDAD------------------------------------------ */
+.indexComunidad{
+    height: auto;
+    }
+    
+.indexComunidad h1{
+    color: whitesmoke;
+    font-size: 4rem;
+    margin: 2rem;
+    font-family: 'Fredericka the Great';
+    font-weight: 100;
+    text-align: center;
+}
+.blogComunidad{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0rem 3rem;
+    font-family: 'Arima Madurai';
+    list-style-type: none;
+}
+.blogComunidad li{
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 1.25rem;
+}
+.comentario{
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f1;
+}
+.blogComunidad li h2{
+    font-size: 1.5rem;
+    font-family: 'Fredericka the Great';
+}
+.blogComunidad li p{
+    font-size: 1.2rem;
+}
+.imgComunidad{
+    height: 80px;
+}
+.formComunidad{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+    color: #f7f7f1;
+}
+.formComunidad input{
+    margin: 0.3rem;
+    padding: 1.3rem;
+    border: none;
+    border-radius: 1.25rem;
+    font-size: 1.25rem;
+    font-family: 'Arima Madurai';
+    width: 60%;
+}
+.formComunidad input:hover{
+    transform: scale(1);
+    transition: 0.4s;
+    box-shadow: 0.0625em 0.0625em 0.625em white;
+}
+.ingresar{
+    background-color: rgb(31, 29, 29);
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+/* MAIN CONOCE LAS LLAVES */
+
+
+.indexLlaves h1{
+    color: whitesmoke;
+    font-size: 4rem;
+    margin: 2rem;
+    font-family: 'Fredericka the Great';
+    font-weight: 100;
+    text-align: center;
+}
+.llavesLocke{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0rem 3rem;
+    font-family: 'Arima Madurai';
+    list-style-type: none;
+}
+.llavesLocke li{
+    width: 400px;
+    height: 430px;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 1.25rem;
+    background-color: antiquewhite;
+}
+.llavesLocke li h2{
+    font-size: 1.5rem;
+    font-family: 'Fredericka the Great';
+}
+.llavesLocke li p{
+    font-size: 1.2rem;
+}
+.imgLlave{
+    width: 85px;
+}
